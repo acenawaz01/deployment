@@ -1,0 +1,18 @@
+{
+    "family": "hello-world",
+    "containerDefinitions": [
+        {
+            "image": "your-repository/hello-world:v_%BUILD_NUMBER%",
+            "name": "hello-world",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 5000,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ]
+}
