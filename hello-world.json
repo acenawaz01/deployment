@@ -2,7 +2,7 @@
     "family": "hello-world",
     "containerDefinitions": [
         {
-            "image": "406609622662.dkr.ecr.us-east-1.amazonaws.com/hello-world:v_%BUILD_NUMBER%",
+            "image": "406609622662.dkr.ecr.us-east-2.amazonaws.com/hello-world:v_%BUILD_NUMBER%",
             "name": "hello-world",
             "cpu": 10,
             "memory": 256,
